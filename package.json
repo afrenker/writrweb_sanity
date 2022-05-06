@@ -8,7 +8,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
-    "build": "lerna bootstrap && npm run build"
+    "build": "sanity build"
   },
   "keywords": [
     "sanity"
