@@ -13,7 +13,7 @@ import blockContent from './blockContent'
 // import plotSummaries from './plotSummaries'
 
 // import screening from './screening'
-import useCases from './useCases'
+// import useCases from './useCases'
 import useCase from './useCase'
 import callToActionButton from './callToActionButton'
 import useCaseStep1 from './useCaseStep1'
@@ -31,7 +31,7 @@ export default createSchema({
     // // The following are document types which will appear
     // // in the studio.
     // screening,
-    useCases,
+    // useCases,
     useCase,
     callToActionButton,
     useCaseStep1,

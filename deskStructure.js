@@ -11,11 +11,11 @@ export default () =>
     S.list()
         .title('Pages')
         .items([
-          S.listItem()
-            .title('Use cases')
-            .icon(MdDashboard)
-            .schemaType('useCases')
-            .child(S.documentTypeList('useCases').title('Use cases')),
+        //   S.listItem()
+        //     .title('Use cases')
+        //     .icon(MdDashboard)
+        //     .schemaType('useCases')
+        //     .child(S.documentTypeList('useCases').title('Use cases')),
         
           S.listItem()
             .title('Use case')
