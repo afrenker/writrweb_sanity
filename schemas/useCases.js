@@ -1,13 +1,12 @@
 import {MdAccessibility as icon} from 'react-icons/md';
-import { language } from './languages';
 
 export default {
-  name: 'useCase',
-  title: 'Use case',
+  name: 'useCases',
+  title: 'Use cases list',
   type: 'document',
   icon,
   fields: [
-    language,
+    
     {
       name: 'toolType',
       title: 'Tool type',
@@ -48,38 +47,10 @@ export default {
       type: 'text',
       maxLength: 160,
     },
-    {  
-      name: 'callToActionButton',
-      title: 'Call to action button',
-      type: 'callToActionButton',
-    },
-    {
-      name: 'useCaseStepsHeading',
-      title: 'Use case steps heading',
-      type: 'string',
-    },
-    {
-      name: 'useCaseStepsHeadingHighlighted',
-      title: 'Use case steps heading highlighted',
-      type: 'string',
-    },
     {
       name: 'teaser',
       title: 'Teaser',
       type: 'text',
-    },
-    {
-      name: 'useCaseSteps',
-      title: 'Use case steps',
-      type: 'array',
-      of: [{type: 'useCaseStep1'},{type: 'useCaseStep2'},{type: 'useCaseStep3'},{type: 'UseCaseStepResult'}], 
-    },
-    {
-      name: 'useCaseBottomLink',
-      title: 'Use case bottom link',
-      type: 'reference',
-      to: [{type: 'useCase'}],
-      description: 'This is a link to another use case',
     },
     {
       name: 'metaKeyWords',
@@ -91,7 +62,6 @@ export default {
   preview: {
     select: {
       title: 'title',
-      subtitle: 'toolType',
     },
   },
 }
