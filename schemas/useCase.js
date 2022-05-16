@@ -75,8 +75,8 @@ export default {
       of: [{type: 'useCaseStep1'},{type: 'useCaseStep2'},{type: 'useCaseStep3'},{type: 'UseCaseStepResult'}], 
     },
     {
-      name: 'useCaseBottomLink',
-      title: 'Use case bottom link',
+      name: 'useCaseBottomLinkRef',
+      title: 'Use case bottom link ref',
       type: 'reference',
       to: [{type: 'useCase'}],
       description: 'This is a link to another use case',
